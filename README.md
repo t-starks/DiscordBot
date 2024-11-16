@@ -32,22 +32,14 @@ DiscordBot/
 1. Instala Node.js si aún no lo tienes.  
    Descarga desde [aquí](https://nodejs.org/).
 
-2. Clona el repositorio:  
-   ```bash
-   git clone https://github.com/t-starks/DiscordBot.git
    ```
 
-3. Navega al directorio del proyecto:  
-   ```bash
-   cd DiscordBot
-   ```
-
-4. Instala las dependencias:  
+2. Instala las dependencias:  
    ```bash
    npm install
    ```
 
-5. Configura tu archivo `config.json` como se indica en [Configuración inicial](#configuración-inicial).
+3. Configura tu archivo `config.json` como se indica en [Configuración inicial](#configuración-inicial).
 
 ---
 
