@@ -7,7 +7,7 @@ const Client = new Discord.Client({
 });
 
 Client.on('ready', async (client) => {
-    console.log(`${client.user.tag} Acceso Concedido 🤖!`);
+    console.log(`${client.user.tag} Acceso Concedido por: https://t-stark.netlify.app 🤖!`);
     client.user.setActivity('Developed by T. Stark.', { type: 3 });
 });
 
