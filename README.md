@@ -32,8 +32,6 @@ DiscordBot/
 1. Instala Node.js si aún no lo tienes.  
    Descarga desde [aquí](https://nodejs.org/).
 
-   ```
-
 2. Instala las dependencias:  
    ```bash
    npm install
