@@ -1,0 +1,23 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Un bot de Discord.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "T. Stark",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t-starks/DiscordBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/t-starks/DiscordBot/issues"
+  },
+  "homepage": "https://github.com/t-starks/DiscordBot#readme"
+}
