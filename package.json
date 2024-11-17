@@ -1,7 +1,7 @@
 {
   "name": "discord-bot",
   "version": "1.0.0",
-  "description": "Un bot de Discord.",
+  "description": "Un bot de Discord con funciones de administración y entretenimiento.",
   "main": "index.js",
   "scripts": {
     "start": "node ."
