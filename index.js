@@ -14,7 +14,7 @@ Client.on('ready', async (client) => {
 // Comandos {!}
 Client.on('messageCreate', async (message) => {
     if (message.author.bot) return;
-    if (!message.content.startsWith('-')) return;
+    if (!message.content.startsWith('-')) return; //Prefix del bot - Puedes cambiarlo por (, . - _ $ + & ! ?) como prefijos para el bot
 
     try {
         const command = message.content.toLowerCase().slice(1).split(' ')[0];
