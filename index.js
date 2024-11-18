@@ -73,4 +73,18 @@ const rest = new REST({ version: '9' }).setToken(config.token);
     }
 })();
 
+// handler de eventos
+fs.readdirSync("./events")
+    .filter((filename) => filename.endsWith(".js"))
+    .forEach((filename) => {
+        try {
+            const listener = require(`./events/${filename}`);
+            const eventName = path.basename(filename, ".js");
+
+            Client.on(eventName, listener);
+        } catch (err) {
+        console.log("[err] Ha ocurrido un error al cargan un evento", err);
+    }
+});
+
 Client.login(config.token);
