@@ -9,7 +9,8 @@
   "author": "T. Stark",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^14.7.1"
+    "discord.js": "^14.7.1",
+    "@iamtraction/google-translate": "^2.0.1"
   },
   "keywords": [],
   "repository": {
