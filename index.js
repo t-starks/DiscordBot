@@ -7,7 +7,19 @@ const Client = new Discord.Client({
 });
 
 Client.on('ready', async (client) => {
-    console.log(`${client.user.tag} Acceso Concedido por: https://t-stark.netlify.app 🤖!`);
+    console.clear()
+    console.log(`
+  _____   ____  _             _    
+ |_   _| / ___|| |_ __ _ _ __| | __
+   | |   \\___ \\| __/ _\` | '__| |/ /
+   | |_   ___) | || (_| | |  |   < 
+   |_(_) |____/ \\__\\__,_|_|  |_|\\_\\
+===========================================
+✅ Developed by: https://t-stark.netlify.app
+🤖 Online: ${client.user.tag} | 📶 ${Client.commands.size} slash commands {/}
+👨🏻‍💻 Other Tools: https://starkcompany.netlify.app
+===========================================
+    `);
     client.user.setActivity('Developed by T. Stark.', { type: 3 });
 });
 
