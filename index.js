@@ -14,11 +14,11 @@ Client.on('ready', async (client) => {
    | |   \\___ \\| __/ _\` | '__| |/ /
    | |_   ___) | || (_| | |  |   < 
    |_(_) |____/ \\__\\__,_|_|  |_|\\_\\
-===========================================
+╔════════════════════════════════════════════╗
 ✅ Developed by: https://t-stark.netlify.app
-🤖 Online: ${client.user.tag} | 📶 ${Client.commands.size} slash commands {/}
-👨🏻‍💻 Other Tools: https://starkcompany.netlify.app
-===========================================
+🤖 Online: ${client.user.tag} 📶 ${Client.commands.size} slash commands {/}
+💻 Tools: https://starkcompany.netlify.app
+╚════════════════════════════════════════════╝
     `);
     client.user.setActivity('Developed by T. Stark.', { type: 3 });
 });
