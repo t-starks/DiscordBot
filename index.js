@@ -30,11 +30,9 @@ Client.on('messageCreate', async (message) => {
 
     try {
         const command = message.content.toLowerCase().slice(1).split(' ')[0];
-        console.log(command);
         const commandexecute = require(`./commands/${command}.js`);
         await commandexecute(message);
     } catch (error) {
-        console.log(`${message.content} no es un comando valido.`);
     }
 });
 
@@ -79,7 +77,6 @@ const rest = new REST({ version: '9' }).setToken(config.token);
             Routes.applicationCommands(config.clientId),
             { body: Client.commands.map(command => command.data.toJSON()) }
         );
-        console.log(`Loaded ${Client.commands.size} slash commands {/}.`);
     } catch (error) {
         console.error("Error loading commands.", error);
     }
