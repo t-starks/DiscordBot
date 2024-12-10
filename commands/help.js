@@ -1,9 +1,10 @@
+// Desarrollado por T. Stark
 const { EmbedBuilder } = require('discord.js');
 const fs = require('fs');
 const path = require('path');
 
 module.exports = async (message) => {
-    const commandsDir = path.join(__dirname); // Ajustar la ruta
+    const commandsDir = path.join(__dirname);
     const files = fs.readdirSync(commandsDir);
     const commands = files
         .filter(file => file.endsWith('.js'))

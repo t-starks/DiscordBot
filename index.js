@@ -1,3 +1,4 @@
+// Desarrollado por T. Stark
 const config = require('./config.json');
 const Discord = require('discord.js');
 const fs = require('fs');
@@ -9,18 +10,19 @@ const Client = new Discord.Client({
 Client.on('ready', async (client) => {
     console.clear()
     console.log(`
-  _____   ____  _             _    
- |_   _| / ___|| |_ __ _ _ __| | __
-   | |   \\___ \\| __/ _\` | '__| |/ /
-   | |_   ___) | || (_| | |  |   < 
-   |_(_) |____/ \\__\\__,_|_|  |_|\\_\\
+    ╔════╗╔═══╗╔╗     ╔╗
+    ║╔╗╔╗║║╔═╗╠╝╚╗    ║║
+    ╚╝║║╚╝║╚══╬╗╔╬══╦═╣║╔╗
+      ║║  ╚══╗║║║║╔╗║╔╣╚╝╝
+      ║║╔╗║╚═╝║║╚╣╔╗║║║╔╗╗
+      ╚╝╚╝╚═══╝╚═╩╝╚╩╝╚╝╚╝
 ╔════════════════════════════════════════════╗
-✅ Developed by: https://t-stark.netlify.app
-🤖 Online: ${client.user.tag} 📶 ${Client.commands.size} slash commands {/}
-💻 Tools: https://starkcompany.netlify.app
+ ✅ Developer: https://t-stark.netlify.app
+ 🤖 Online: ${client.user.tag} 📶 ${Client.commands.size} App Commands
+ 💻 Tools: https://starkcompany.netlify.app
 ╚════════════════════════════════════════════╝
     `);
-    client.user.setActivity('Developed by T. Stark.', { type: 3 });
+    client.user.setActivity('Developed by T. Stark.', { type: 4 });
 });
 
 // Comandos {!}

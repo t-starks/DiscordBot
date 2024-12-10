@@ -1,3 +1,4 @@
+// Desarrollado por T. Stark
 module.exports = async ( message ) => {
     const user = message.mentions.users.first() || message.author;
 

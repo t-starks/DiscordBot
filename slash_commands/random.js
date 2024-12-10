@@ -1,3 +1,4 @@
+// Desarrollado por T. Stark
 const Discord = require('discord.js');
 
 module.exports = {

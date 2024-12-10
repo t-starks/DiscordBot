@@ -1,3 +1,4 @@
+// Desarrollado por T. Stark
 const Discord = require('discord.js');
 
 module.exports = {
@@ -8,8 +9,8 @@ module.exports = {
         try {
             const embed = new Discord.EmbedBuilder()
                 .setColor('#0099ff')
-                .setTitle('Pong!')
-                .setDescription(`Latencia de la API: **${Math.round(interaction.client.ws.ping)}ms** ✅`);
+                .setTitle('Pong! 🏓')
+                .setDescription(`Latencia de la API: **${Math.round(interaction.client.ws.ping)}ms** 📶`);
 
             // Responder con el embed
             await interaction.reply({ embeds: [embed] });
