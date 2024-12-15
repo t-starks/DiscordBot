@@ -9,7 +9,8 @@
   "author": "T. Stark",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^14.7.1"
+    "discord.js": "^14.7.1",
+    "t-stark": "^1.0.5"
   },
   "keywords": [],
   "repository": {
